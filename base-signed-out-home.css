@@ -51,13 +51,18 @@ p {
     line-height: 34px;
     margin-bottom: 20px;
 }
-
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+}
 
 .nav-items {
     display: inline-block;
     padding: 0;
     margin: 0;
-    line-height: 60px;
+    line-height: 30px;
     list-style: none;
 
 }
@@ -98,4 +103,18 @@ p {
 
 .nav-items.social li span {
     font-size: 14px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .yarn-logo {
+        width: 80px;
+        margin: 30px auto 20px;
+    }
+    h1,
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
 }
