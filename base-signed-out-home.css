@@ -14,45 +14,52 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-a,
-a:hover,
-a:focus,
-a:visited {
-    text-decoration: none;
+a {
+    text-decoration: underline;
     outline: none;
+    color: #58585B;
 }
 
-a:active {
-    outline: none;
-}
 
-ul, li {
-}
-
-img.mega-bg {
+.hero-content {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-}
-.hero-content {
-    position: relative;
+    bottom: 0;
+    right: 0;
     background-image: url(splash-cropped-bigger.jpg);
     background-position: 0 0;
     background-size: cover;
-
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 22px;
+    text-align: center;
 }
+.yarn-logo {
+    display: block;
+    width: 250px;
+    margin: 50px auto 20px;
+
+}
+.message {
+    text-align: center;
+    width: 550px;
+    max-width: 90%;
+    margin: 0 auto 0;
+}
+h1,
+p {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-bottom: 20px;
+}
+
 
 .nav-items {
     display: inline-block;
-    float: right;
     padding: 0;
     margin: 0;
     line-height: 60px;
     list-style: none;
+
 }
 
 .nav-items li {
@@ -69,6 +76,7 @@ img.mega-bg {
     color: #808080;
     text-transform: uppercase;
     display: block;
+    text-decoration: none;
 }
 .nav-items a.pill {
     display: inline;
@@ -78,7 +86,6 @@ img.mega-bg {
 }
 
 .nav-items.social {
-    float: left;
     padding-right: 15px;
 }
 
